@@ -3,7 +3,7 @@
 A simple and responsive Expense Tracker Web App built using React.js.
 This application allows users to track their income and expenses, view their balance, and manage their transactions easily.
 
-🚀 Features
+# 🚀 Features
 
 ➕ Add income and expense transactions
 📊 Automatically calculate total income
@@ -13,7 +13,7 @@ This application allows users to track their income and expenses, view their bal
 ⚠️ Alert if invalid amount is entered
 💾 Data stored using Local Storage
 
-🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 React.js
 JavaScript (ES6)
@@ -22,7 +22,7 @@ CSS3
 Tailwind CSS
 Git & GitHub
 
-📂 Project Structure
+# 📂 Project Structure
 
 expense-tracker
 │
