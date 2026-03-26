@@ -1,16 +1,36 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💰 Expense Tracker (React)
+A simple and responsive Expense Tracker Web App built using React.js.
+This application allows users to track their income and expenses, view their balance, and manage their transactions easily.
+🚀 Features
+➕ Add income and expense transactions
+📊 Automatically calculate total income
+📉 Automatically calculate total expenses
+💵 Display current balance
+📅 Select transaction date
+⚠️ Alert if invalid amount is entered
+💾 Data stored using Local Storage
+🛠️ Technologies Used
+React.js
+JavaScript (ES6)
+HTML5
+CSS3
+Tailwind CSS
+Git & GitHub
+📸 Screenshot
+(Add a screenshot of your app here)
+Example:
+�
+📂 Project Structure
+expense-tracker
+│
+├── src
+│   ├── components
+│   │   ├── Dashboard.jsx
+│   │   ├── TransactionForm.jsx
+│   │   └── TransactionList.jsx
+│   │
+│   ├── App.js
+│   └── index.js
+│
+├── public
+└── package.json
