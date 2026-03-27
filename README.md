@@ -3,6 +3,10 @@
 A simple and responsive Expense Tracker Web App built using React.js.
 This application allows users to track their income and expenses, view their balance, and manage their transactions easily.
 
+# Live demo
+
+https://expensou.netlify.app/
+
 # 🚀 Features
 
 ➕ Add income and expense transactions
@@ -21,19 +25,3 @@ HTML5
 CSS3
 Tailwind CSS
 Git & GitHub
-
-# 📂 Project Structure
-
-expense-tracker
-│
-├── src
-│   ├── components
-│   │   ├── Dashboard.jsx
-│   │   ├── TransactionForm.jsx
-│   │   └── TransactionList.jsx
-│   │
-│   ├── App.js
-│   └── index.js
-│
-├── public
-└── package.json
