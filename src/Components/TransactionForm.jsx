@@ -13,7 +13,7 @@ export const TransactionForm = ({ setIsOpen , setTransactions ,transactions}) =>
         setFormData((prev) => ({...prev,[name]:value}));
     }
     const handleSubmit = () =>{
-        const newAmount = formData.amount;
+        const newAmount = Number(formData.amount);
         if(formData.amount == 0){
             alert("enter an amount!");
             return;
@@ -24,7 +24,7 @@ export const TransactionForm = ({ setIsOpen , setTransactions ,transactions}) =>
         }
         const totalIncome = transactions.filter( txn => txn.type === "income").reduce((acc , txn) => acc+ Number(txn.amount) ,0);
         const totalExpense = transactions.filter( txn => txn.type === "expense").reduce((acc , txn) => acc+ Number(txn.amount) ,0);
-        if(formData.type == "expense" && totalExpense + newAmount > totalIncome){
+        if(formData.type === "expense" && totalExpense + newAmount > totalIncome){
             alert("Expense cannot be greater than income!");
             return;
         }
