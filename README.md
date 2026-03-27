@@ -10,11 +10,17 @@ https://expensou.netlify.app/
 # 🚀 Features
 
 ➕ Add income and expense transactions
+
 📊 Automatically calculate total income
+
 📉 Automatically calculate total expenses
+
 💵 Display current balance
+
 📅 Select transaction date
+
 ⚠️ Alert if invalid amount is entered
+
 💾 Data stored using Local Storage
 
 # 🛠️ Technologies Used
