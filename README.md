@@ -26,8 +26,13 @@ https://expensou.netlify.app/
 # 🛠️ Technologies Used
 
 React.js
+
 JavaScript (ES6)
+
 HTML5
+
 CSS3
+
 Tailwind CSS
+
 Git & GitHub
